@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Multicolor slider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form oninput="thumb.value=parseInt(range.value)">
+        <input type="range" id="range" min="0" max="100" onchange="change()">
+        <output name="thumb" for="range thumb" id="thumb"></output>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
